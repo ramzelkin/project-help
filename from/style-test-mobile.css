@@ -1,6 +1,6 @@
 @font-face {
  font-family: Itim-Regular; 
- src: url(fonts/Itim-Regular.ttf);
+ src: url("./fonts/Itim-Regular.ttf");
 }
 
 P {
