@@ -14,3 +14,7 @@ p {
 P {
  font-family: Itim;
 }
+
+p {
+	font-weight: bold;
+}
