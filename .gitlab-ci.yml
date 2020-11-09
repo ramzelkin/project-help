@@ -1,9 +1,10 @@
 rspec:
   stage: test
-  script: bundle exec rspec
-
+  script: 
+    - rm -f from/css-test/style-test-mobile.css
+    - cp -f from/style-test-mobile.css from/css-test
 staging:
   variables:
     ENVIRONMENT: staging
   stage: deploy
-  trigger: my/deployment
+  trigger: helloworld
