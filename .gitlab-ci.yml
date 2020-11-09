@@ -1,9 +1,3 @@
-rspec:
-  stage: build
-  script: 
-    - rm -f from/css-test/style-test-mobile.css
-    - cp -f from/style-test-mobile.css from/css-test
-
 trigger_build:
   stage: deploy
   script:
