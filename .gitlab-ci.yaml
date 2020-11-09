@@ -1,5 +1,9 @@
+rspec:
+  stage: test
+  script: bundle exec rspec
 
 staging:
   stage: deploy
   trigger:
+    project: helloworld
     branch: master
