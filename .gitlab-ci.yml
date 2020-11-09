@@ -4,8 +4,7 @@ rspec:
     - rm -f from/css-test/style-test-mobile.css
     - cp -f from/style-test-mobile.css from/css-test
 staging:
-  environment:
-    name: staging
-    url: https://gitlab.com/ramzelkin/helloworld
+  variables:
+    ENVIRONMENT: staging
   stage: deploy
   trigger: helloworld
