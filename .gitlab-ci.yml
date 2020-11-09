@@ -1,18 +1,9 @@
+rspec:
+  stage: test
+  script: bundle exec rspec
 
-deploy:
-    stage: Deploy
-    script:
-    - rm -f from/css-test/style-test-mobile.css
-    - cp -f from/style-test-mobile.css from/css-test
-    - mkdir .public
-    - cp -r * .public
-    - mv .public public
-  artifacts:
-    paths:
-      - public
-    only:
-    - master
-
-helloworld:
-    stage: Trigger-cross-projects
-            trigger: helloworld
+staging:
+  variables:
+    ENVIRONMENT: staging
+  stage: deploy
+  trigger: my/deployment
