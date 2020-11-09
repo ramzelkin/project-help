@@ -1,0 +1,5 @@
+
+staging:
+  stage: deploy
+  trigger:
+    branch: master
