@@ -6,6 +6,10 @@ p {
 	color: black;
 }
 
+button:first-child {
+	background: deeppink;
+}
+
 @font-face {
  font-family: Itim; 
  src: url("./from/fonts/Itim-Regular.ttf");
