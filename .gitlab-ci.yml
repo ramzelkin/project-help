@@ -1,6 +1,9 @@
 trigger_build:
   stage: deploy
   script:
-    - "curl -X POST -F token=2bcceb8b8027b220206ef7e1132c41 -F ref=master https://gitlab.com/api/v4/projects/21167331/trigger/pipeline"
+       - echo "APPEL de CURL"
+       - "curl -X POST -F token=2bcceb8b8027b220206ef7e1132c41 -F ref=master https://gitlab.com/api/v4/projects/21167331/trigger/pipeline"
+       - echo "content"
+       - exit 0
   only:
-    - develop  
+    - develop
