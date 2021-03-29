@@ -25,7 +25,8 @@ p {
 
 #showMobile {
 	border: 3px dotted brown;
-	background: green;
+	background: black;
+	color: purple;
 }
  img {
 	 border: 5px solid black;
