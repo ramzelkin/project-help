@@ -27,6 +27,8 @@ p {
 	border: 3px solid brown;
 	background: black;
 	color: yellow;
+	font-family: DelaGothicOne;
+	src: url("./from/fonts/DelaGothicOne-Regular.ttf");
 }
  img {
 	 border: 5px solid black;
