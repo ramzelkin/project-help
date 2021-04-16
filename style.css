@@ -11,12 +11,14 @@ p {
 }
 
 @font-face {
- font-family: Itim;
- src: url("./from/fonts/Itim-Regular.ttf");
+	font-family: ZillaSlabHighlight;
+	src: url("./from/fonts/ZillaSlabHighlight-Regular.ttf");
+ 	font-family: Itim;
+ 	src: url("./from/fonts/Itim-Regular.ttf");
 }
 
 P {
- font-family: Itim;
+ font-family: ZillaSlabHighlight;
 }
 
 p {
@@ -27,8 +29,7 @@ p {
 	border: 3px solid brown;
 	background: black;
 	color: yellow;
-	font-family: DelaGothicOne;
-	src: url("./from/fonts/DelaGothicOne-Regular.ttf");
+	font-family: Itim;
 }
  img {
 	 border: 5px solid black;
