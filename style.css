@@ -13,8 +13,10 @@ p {
 @font-face {
 	font-family: ZillaSlabHighlight;
 	src: url("./from/fonts/ZillaSlabHighlight-Regular.ttf");
- 	font-family: Itim;
- 	src: url("./from/fonts/Itim-Regular.ttf");
+}
+@font-face {
+	font-family: Itim;
+	src: url("./from/fonts/Itim-Regular.ttf");
 }
 
 P {
