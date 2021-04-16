@@ -18,9 +18,13 @@ p {
 	font-family: Itim;
 	src: url("./from/fonts/Itim-Regular.ttf");
 }
+@font-face {
+	font-family: Pacifico;
+	src: url("./from/fonts/Pacifico-Regular.ttf");
+}
 
 P {
- font-family: ZillaSlabHighlight;
+ font-family: Pacifico;
 }
 
 p {
